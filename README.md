@@ -115,4 +115,5 @@ This enables easy reloading for inference without retraining.
 * **Trevor Hitchcock**
 
 Deep Learning, University of New Haven
+
 Fall 2025
