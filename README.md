@@ -114,8 +114,5 @@ This enables easy reloading for inference without retraining.
 * **Aldric Pinto**
 * **Trevor Hitchcock**
 
-Deep Learning — University of New Haven
+Deep Learning, University of New Haven
 Fall 2025
-
-
-Just tell me!
