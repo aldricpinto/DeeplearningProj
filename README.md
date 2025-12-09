@@ -1,6 +1,6 @@
-# 🖼️ Image Colorization Using U-Net + Perceptual Loss
+# Image Colorization Using U-Net + Perceptual Loss
 
-## 📌 Overview
+## Overview
 
 This project implements **automatic image colorization** using a **U-Net architecture** trained on the **Labeled Faces in the Wild (LFW)** dataset.
 The model takes **grayscale images** and predicts their **colorized RGB versions** using a combination of:
@@ -12,18 +12,18 @@ This hybrid loss encourages realistic textures and more natural colors compared 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-* ✔️ U-Net model with dynamic input support
-* ✔️ Perceptual loss leveraging pretrained VGG16
-* ✔️ Training pipeline using TensorFlow & TensorFlow Datasets
-* ✔️ Visualization of predictions during training
-* ✔️ Colorization of unseen grayscale images
-* ✔️ Model checkpoint saving for future inference
+* U-Net model with dynamic input support
+* Perceptual loss leveraging pretrained VGG16
+* Training pipeline using TensorFlow & TensorFlow Datasets
+* Visualization of predictions during training
+* Colorization of unseen grayscale images
+* Model checkpoint saving for future inference
 
 ---
 
-## 📦 Installation
+## Installation
 
 Before running the notebook, install the required packages:
 
@@ -33,7 +33,7 @@ pip install tensorflow tensorflow_datasets opencv-python-headless matplotlib
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The model uses a **U-Net encoder–decoder** structure with:
 
@@ -46,7 +46,7 @@ The addition of **perceptual loss** improves realism by comparing deep feature r
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 We use the **LFW (Labeled Faces in the Wild)** dataset via TensorFlow Datasets:
 
@@ -56,7 +56,7 @@ We use the **LFW (Labeled Faces in the Wild)** dataset via TensorFlow Datasets:
 
 ---
 
-## 🏋️ Training
+## Training
 
 The training loop:
 
@@ -72,7 +72,7 @@ The training loop:
 
 ---
 
-## 🎨 Results & Visualization
+## Results & Visualization
 
 The notebook includes code to:
 
@@ -82,7 +82,7 @@ The notebook includes code to:
 
 ---
 
-## 🧪 Testing on New Images
+## Testing on New Images
 
 You can load any local grayscale image and run:
 
@@ -95,7 +95,7 @@ The model will generate a fully colorized version.
 
 ---
 
-## 💾 Saving the Model
+## Saving the Model
 
 The notebook also supports saving:
 
@@ -107,7 +107,7 @@ This enables easy reloading for inference without retraining.
 
 ---
 
-## 👥 Authors
+## Authors
 
 **Developed by:**
 
